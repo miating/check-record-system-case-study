@@ -21,11 +21,17 @@ The private desktop application uses Electron, JavaScript, SQLite, structured tr
 
 ## Public Demo
 
-Open `demo.html` for an offline English preview using fictional checks, balances, and parties.
+Open `demo.html` for the interactive offline English demo. Navigation, the received/issued tabs, search, filters and record details all work; overdue and near-due checks are highlighted the same way the application highlights them. Every check, balance and party is fictional.
 
 ## Application Interface
 
-The screenshot below shows the actual Electron desktop application shell (Traditional Chinese interface) with an empty local database:
+The images below are the actual Electron desktop interface (Traditional Chinese), rendered offline with the database layer replaced by fictional checks, parties and balances:
+
+| Overview | Check register |
+|----------|----------------|
+| ![Overview](screenshots/original-system-dashboard.png) | ![Check register](screenshots/original-system-checks.png) |
+
+For reference, the same shell with an empty local database:
 
 ![Desktop application interface](screenshots/desktop-app-interface.png)
 
